@@ -1,7 +1,7 @@
 <?php
 /* NameSpaces */
 // ToDo: Change this to your Application Wrapper
-use SmellySkeleton\Application;
+use UpToDate\Application;
 
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ServiceControllerServiceProvider;
@@ -53,9 +53,9 @@ $app->register(new SessionServiceProvider());
 $app->register(
     new ConsoleServiceProvider(),
     array(
-        'console.name' => 'SmellySkeletonCli',
+        'console.name' => 'UpToDateCli',
         'console.version' => '1.0.0',
-        'console.project_directory' => __DIR__ . "/SmellySkeleton/Cli"
+        'console.project_directory' => __DIR__ . "/UpToDate/Cli"
     )
 );
 

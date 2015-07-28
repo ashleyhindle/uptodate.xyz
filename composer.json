@@ -27,8 +27,8 @@
         "psr-0": { "": "src/" }
     },
     "scripts": {
-	"test": [
-		"vendor/phpunit/phpunit/phpunit"
-	],
+    	"test": [
+    		"vendor/phpunit/phpunit/phpunit"
+    	],
     }
 }

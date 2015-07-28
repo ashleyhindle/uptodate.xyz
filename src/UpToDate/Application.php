@@ -1,5 +1,5 @@
 <?php
-namespace SmellySkeleton;
+namespace UpToDate;
 
 use Silex\Application as SilexApp;
 

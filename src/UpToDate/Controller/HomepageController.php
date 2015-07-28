@@ -1,5 +1,5 @@
 <?php
-namespace SmellySkeleton\Controller;
+namespace UpToDate\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;

@@ -6,5 +6,5 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 
-$app->get('/', 'SmellySkeleton\Controller\HomepageController::indexAction')
+$app->get('/', 'UpToDate\Controller\HomepageController::indexAction')
     ->bind('homepage');
