@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block head %}
+<title>{% block title %}{% endblock %} - SmellySkeleton</title>
+{% endblock %}
+{% block assets %}
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+<link rel="stylesheet" href="/css/app.css">
+</script>
+{% endblock %}
+</head>
+<body>
+{% include 'navbar.html.twig' %}
+{% block content %}{% endblock %}
+</body>
+</html>
